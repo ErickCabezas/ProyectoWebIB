@@ -1,0 +1,42 @@
+/*Fuentes*/
+@font-face {
+    font-family: 'LibreBodoni-B';
+    src: url(../font/LibreBodoni-Bold.ttf);
+}
+@font-face {
+    font-family: 'LibreBodoni-R';
+    src: url(../font/LibreBodoni-Regular.ttf);
+}
+
+body{
+    margin: 40px;
+    font-family: LibreBodoni-B, arial, sans-serif;
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background-attachment: fixed;
+    color: #333; /* Color de texto principal */
+}
+.font-titulo{
+    font-family: LibreBodoni-R, arial, sans-serif;
+}
+.fondo{
+    background-color: rgba(255,255,255,0.9);
+    padding: 20px 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+#descripcion{
+    resize: none;
+}
+.bloqueado{
+    background-color: #ccc; 
+}
+
+.money-input {
+    border: none; /* Quita todos los bordes predeterminados */
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0px;
+    font-size: 30px;
+}
+  
