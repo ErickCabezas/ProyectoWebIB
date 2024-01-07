@@ -25,6 +25,7 @@ body{
     padding: 20px 20px;
     border: 1px solid #ccc;
     border-radius: 15px;
+    margin-top: 40px;
 }
 #descripcion{
     resize: none;
@@ -39,4 +40,53 @@ body{
     border-radius: 0px;
     font-size: 30px;
 }
-  
+
+.config{
+    margin-right: 40px;
+}
+
+.titulo{
+    font-size: 2.2rem;
+}
+
+.barra{
+    padding-left: 30px;
+    margin: 10px 70px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    background-color: #b4ccf9;
+}
+
+.opciones a{
+    margin-right: 35px;
+}
+
+.opciones a:hover{
+    color: #0d6efd;
+}
+
+
+.resumen{
+    /*display: flex; alinear como columnas*/
+    gap: 70px;
+    margin: 70px;
+
+}
+
+.cuentas div{
+    margin-bottom: 10px;
+}
+
+.resumen-categorias div{
+    margin-bottom: 10px;
+}
+
+.borde{
+    border: 2px solid #0d6efd;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+}
+
+main section div h6{
+    margin-top: 15px;
+}
