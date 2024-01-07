@@ -1,92 +1,128 @@
 /*Fuentes*/
 @font-face {
-    font-family: 'LibreBodoni-B';
-    src: url(../font/LibreBodoni-Bold.ttf);
+  font-family: "LibreBodoni-B";
+  src: url(../font/LibreBodoni-Bold.ttf);
 }
 @font-face {
-    font-family: 'LibreBodoni-R';
-    src: url(../font/LibreBodoni-Regular.ttf);
+  font-family: "LibreBodoni-R";
+  src: url(../font/LibreBodoni-Regular.ttf);
 }
 
-body{
-    margin: 40px;
-    font-family: LibreBodoni-B, arial, sans-serif;
-    background: #2980B9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
-    background-attachment: fixed;
-    color: #333; /* Color de texto principal */
+body {
+  margin: 40px;
+  font-family: LibreBodoni-B, arial, sans-serif;
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+  color: #333; /* Color de texto principal */
 }
-.font-titulo{
-    font-family: LibreBodoni-R, arial, sans-serif;
+.font-titulo {
+  font-family: LibreBodoni-R, arial, sans-serif;
 }
-.fondo{
-    background-color: rgba(255,255,255,0.9);
-    padding: 20px 20px;
-    border: 1px solid #ccc;
-    border-radius: 15px;
-    margin-top: 40px;
+.fondo {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-top: 40px;
 }
-#descripcion{
-    resize: none;
+#descripcion {
+  resize: none;
 }
-.bloqueado{
-    background-color: #ccc; 
+.bloqueado {
+  background-color: #ccc;
 }
 
 .money-input {
-    border: none; /* Quita todos los bordes predeterminados */
-    border-bottom: 1px solid #ced4da;
-    border-radius: 0px;
-    font-size: 30px;
+  border: none; /* Quita todos los bordes predeterminados */
+  border-bottom: 1px solid #ced4da;
+  border-radius: 0px;
+  font-size: 30px;
 }
 
-.config{
-    margin-right: 40px;
+.config {
+  margin-right: 40px;
 }
 
-.titulo{
-    font-size: 2.2rem;
+.titulo {
+  font-size: 2.2rem;
 }
 
-.barra{
-    padding-left: 30px;
-    margin: 10px 70px;
-    border-radius: 15px;
-    font-size: 1.2rem;
-    background-color: #b4ccf9;
+.barra {
+  padding-left: 30px;
+  margin: 10px 70px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  background-color: #b4ccf9;
 }
 
-.opciones a{
-    margin-right: 35px;
+.opciones a {
+  margin-right: 35px;
 }
 
-.opciones a:hover{
-    color: #0d6efd;
+.opciones a:hover {
+  color: #0d6efd;
 }
 
-
-.resumen{
-    /*display: flex; alinear como columnas*/
-    gap: 70px;
-    margin: 70px;
-
+.resumen {
+  /*display: flex; alinear como columnas*/
+  gap: 70px;
+  margin: 70px;
 }
 
-.cuentas div{
-    margin-bottom: 10px;
+.cuentas div {
+  margin-bottom: 10px;
 }
 
-.resumen-categorias div{
-    margin-bottom: 10px;
+.resumen-categorias div {
+  margin-bottom: 10px;
 }
 
-.borde{
-    border: 2px solid #0d6efd;
-    border-radius: 15px;
-    background-color: #FFFFFF;
+.borde {
+  border: 2px solid #0d6efd;
+  border-radius: 15px;
+  background-color: #ffffff;
 }
 
-main section div h6{
-    margin-top: 15px;
+main section div h6 {
+  margin-top: 15px;
+}
+
+.botones-trans {
+  margin-top: 40px;
+}
+
+.opciones {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+.opciones a {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  justify-content: center;
+  align-content: center;
+}
+.opciones a i {
+  font-size: 3.5em;
+  height: 30px;
+  margin-top: 40px;
+}
+
+.movimientos {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
 }
