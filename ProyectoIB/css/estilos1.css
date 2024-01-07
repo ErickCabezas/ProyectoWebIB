@@ -67,11 +67,11 @@ body {
   background-color: #b4ccf9;
 }
 
-.opciones a {
+.opciones-dsh {
   margin-right: 35px;
 }
 
-.opciones a:hover {
+.opciones-dsh a:hover {
   color: #0d6efd;
 }
 
