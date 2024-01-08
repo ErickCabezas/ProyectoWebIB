@@ -27,6 +27,7 @@ body {
   background-attachment: fixed;
   color: #333; /* Color de texto principal */
 }
+
 .font-titulo {
   font-family: LibreBodoni-R, arial, sans-serif;
 }
@@ -67,6 +68,11 @@ body {
   background-color: #b4ccf9;
 }
 
+.card:hover {
+  background-color: #b4ccf9;
+}
+.card: {
+}
 .opciones-dsh {
   margin-right: 35px;
 }
