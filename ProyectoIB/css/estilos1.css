@@ -10,9 +10,19 @@
 
 body {
   margin: 40px;
-  background: #7F7FD5;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #7f7fd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #91eae4,
+    #86a8e7,
+    #7f7fd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
   background-attachment: fixed;
   color: #333; /* Color de texto principal */
@@ -33,46 +43,43 @@ body {
   --bs-btn-border-color: #011c73;
 }
 
-
 /**********Bordes************************/
-.transacciones{
+.transacciones {
   padding: 0.5%;
   margin: 0.5%;
   border-radius: 25px;
-  border: solid 2px  #9ca0a8;
+  border: solid 2px #9ca0a8;
   color: #100e58;
 }
 
-
 /*************Letras****************/
-.subtitulos{
+.subtitulos {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   font-weight: bold;
 }
-.mini-titulos{
+.mini-titulos {
   font-size: 20px;
-
 }
-.mini-info{
+.mini-info {
   font-size: 20px;
   font-weight: normal;
 }
 
-
-.suma{color: #2b772b;}
-.resta{color: #aa0000;}
-
-
-
-/************Titulo y settings**********************/
-.principal{
-  display: flex;
-  justify-content: space-around;
-
+.suma {
+  color: #2b772b;
+}
+.resta {
+  color: #aa0000;
 }
 
-.principal a i:hover{
+/************Titulo y settings**********************/
+.principal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.principal a i:hover {
   color: #0d6efd;
 }
 
@@ -92,7 +99,7 @@ body {
   background-color: #eff3ff;
 }
 
-.barra a{
+.barra a {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #333;
@@ -100,14 +107,13 @@ body {
   font-weight: bold;
 }
 
-.barra a:hover{
+.barra a:hover {
   color: #0d6efd;
 }
 
 .font-titulo {
   font-family: LibreBodoni-R, arial, sans-serif;
 }
-
 
 #descripcion {
   resize: none;
@@ -130,8 +136,6 @@ body {
 .titulo {
   font-size: 2.2rem;
 }
-
-
 
 .card:hover {
   background-color: #b4ccf9;
@@ -214,7 +218,7 @@ main section div h6 {
   color: #333;
 }
 
-.card-categoria{
+.card-categoria {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
