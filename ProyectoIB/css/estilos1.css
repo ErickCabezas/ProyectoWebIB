@@ -115,16 +115,16 @@ main section div h6 {
 }
 .opciones a {
   display: flex;
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 
   justify-content: center;
   align-content: center;
 }
 .opciones a i {
-  font-size: 3.5em;
+  font-size: 5em;
   height: 30px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .movimientos {
@@ -135,10 +135,3 @@ main section div h6 {
 .fecha {
   margin-left: 2rem;
 }
-<<<<<<< HEAD
-=======
-.btnGyC{
-  width: 35%; 
-  height: 40px
-}
->>>>>>> 27b8cbc89c64336309921689d39261599a15637a
