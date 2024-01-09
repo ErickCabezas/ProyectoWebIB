@@ -138,3 +138,8 @@ main section div h6 {
 .btnGyC{
   width: 35%;
 }
+
+.container-contenido label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
