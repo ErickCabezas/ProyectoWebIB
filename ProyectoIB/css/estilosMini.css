@@ -5,7 +5,7 @@
   }
   .mini-titulos{
     font-size: 20px;
-
+    
   }
   .mini-info{
     font-size: 20px;
@@ -19,6 +19,10 @@
     border: solid 2px  #9ca0a8;
     color: #100e58;
 }
-
+.card-categoria{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
 .suma{color: #2b772b;}
 .resta{color: #aa0000;}
