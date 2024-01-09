@@ -88,11 +88,10 @@ body {
   color: #000;
 }
 
-.iconos{
+.iconos {
   font-size: 40px; /* Tamanio de los iconos */
   color: #011c73;
 }
-
 
 /**********BARRA*******************/
 .barra {
@@ -139,7 +138,7 @@ body {
 
 .money-input {
   border: none; /* Quita todos los bordes predeterminados */
-  border-bottom: solid 1px  #9ca0a8;
+  border-bottom: solid 1px #9ca0a8;
   border-radius: 0px;
   font-size: 30px;
 }
@@ -232,7 +231,8 @@ main section div h6 {
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
-.card-categoria{
+
+.card-categoria {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
