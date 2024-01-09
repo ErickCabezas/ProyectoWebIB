@@ -108,15 +108,6 @@ body {
   font-family: LibreBodoni-R, arial, sans-serif;
 }
 
-.fondo {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px 20px;
-  border: 1px solid #ccc;
-  border-radius: 15px;
-  margin-top: 40px;
-  max-width: 75%;
-}
-
 #descripcion {
   resize: none;
 }
@@ -208,9 +199,7 @@ main section div h6 {
 .fecha {
   margin-left: 2rem;
 }
-.btnGyC {
-  width: 35%;
-}
+
 .btnFecha button {
   width: 100px;
   height: 100px;
@@ -226,10 +215,4 @@ main section div h6 {
   flex-direction: row;
   justify-content: space-between;
   gap: 5rem;
-}
-
-/*ingresos*/
-.anchoIngreso {
-  width: 70%;
-  margin: 0 auto;
 }
