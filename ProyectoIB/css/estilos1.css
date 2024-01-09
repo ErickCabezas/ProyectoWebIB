@@ -209,3 +209,8 @@ main section div h6 {
   height: 100px;
   font-size: 2rem;
 }
+
+.container-contenido label {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
