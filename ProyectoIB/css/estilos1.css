@@ -141,12 +141,6 @@ body {
   margin-right: 40px;
 }
 
-.titulo {
-  font-size: 2.2rem;
-}
-
-
-
 .card:hover {
   background-color: #b4ccf9;
 }
