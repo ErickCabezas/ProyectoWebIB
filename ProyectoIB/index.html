@@ -1,178 +1,154 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/estilos1.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="css/estilos-mini.css">
-    <script
-      src="https://kit.fontawesome.com/3ffe5179f0.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/estilos1.css" rel="stylesheet" />
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/estilosMini.css">
+  <script src="https://kit.fontawesome.com/3ffe5179f0.js" crossorigin="anonymous"></script>
+</head>
 
   <body>
     <div class="container fondo">
-      <header>
-        <h1 class="titulo text-center mt-3 font-titulo">Mi Chaucherita</h1>
-      </header>
-
-      <main class="barra table-primary">
-        <nav class="navbar navbar-expand-lg subtitulos">
-          <div class="opciones-dsh container-fluid row">
-            <a class="nav-link col-2" href="#">Cuentas</a>
-            <a class="nav-link col-11" href="#">Movimientos</a>
-          </div>
-          <div class="config">
-            <a href="configuracion.html" class="btn btn-primary btn-round">
-              <i class="fa-solid fa-gear"></i>
+      <header class="principal">
+            <a href="configuracion.html">
+                <i class="fa-regular fa-user"></i>
             </a>
-          </div>
-        </nav>
+            <h1 class="titulo text-center mt-3 font-titulo">Mi Chaucherita</h1>
+            <a href="configuracion.html">
+                <i class="fa-solid fa-gear"></i>
+            </a>
+        </header>
+
+      <main class="barra">
+        <a class="titulo" href="#">Cuentas</a>
+        <a class="titulo" href="#">Movimientos</a>
       </main>
       
       <main>
         <div class="container movimientos row">
           <h2 class="col-12 subtitulos mt-4" style="margin-left: 130px;">Movimientos Recientes</h2>
-          <table
-            class="table table-bordered table-striped"
-            style="background-color: #ced4da; width: 80%"
-          >
-            <thead>
-              <tr class="mini-titulos">
-                <th>ID</th>
-                <th>Origen</th>
-                <th>Categoria</th>
-                <th>Fecha</th>
-                <th>Monto</th>
-              </tr>
-            </thead>
-            <tbody class="mini-info">
-              <tr class="table-primary">
-                <td>1</td>
-                <td>FAMILIAR</td>
-                <td>ALIMENTACIÓN</td>
-                <td>05/01/2023</td>
-                <td>-$50</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>SALUD</td>
-                <td></td>
-                <td>07/01/2023</td>
-                <td>-$100</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>      
+          <section class="d-flex flex-row w-75 row">
+            <div class="card w-100 transacciones shadow-sm">
+              <div class="d-flex justify-content-between mx-4">
+                <span class="h4">Familiar</span>
+                <span class="h4 resta">-50$</span>
+              </div>
+              <span class="mx-4">Salud</span>
+            </div>
+            <div class="card w-100 transacciones shadow-sm">
+              <div class="d-flex justify-content-between mx-4">
+                <span class="h4">Familiar</span>
+                <span class="h4 suma">+80$</span>
+              </div>
+              <span class="mx-4">Cobro</span>
+            </div>
+            <div class="card w-100 transacciones shadow-sm">
+              <div class="d-flex justify-content-between mx-4">
+                <span class="h4">Cuenta</span>
+                <span class="h4 resta">-500$</span>
+              </div>
+              <span class="mx-4">Universidad</span>
+            </div>
+          </section>
+        </div>
       </main>
 
-      <main class="resumen font-titulo d-lg-flex justify-content-center">
-        <section class="cuentas">
-          <h2 class="subtitulos">Cuentas</h2>
-          <div class="card" style="width: 18rem">
-            <div class="card-body mini-info">
-              <div class="d-flex justify-content-between aling-items-center">
-                <div>
-                  <h5>Familiar</h5>
-                </div>
-                <div>
-                  <h5>$1000</h5>
-                </div>
+    <main class="resumen font-titulo d-lg-flex justify-content-center">
+      <section class="cuentas">
+        <h2 class="subtitulos">Cuentas</h2>
+        <div class="card" style="width: 18rem">
+          <div class="card-body mini-info">
+            <div class="d-flex justify-content-between aling-items-center">
+              <div>
+                <h5>Familiar</h5>
               </div>
-              <div class="d-flex justify-content-around">
-                <a href="ingreso.html" class="btn btn-primary btn-round">
-                  <i class="fas fa-arrow-up-from-bracket"></i>
-                </a>
-                <a href="egreso.html" class="btn btn-primary btn-round">
-                  <i class="fa-solid fa-download"></i>
-                </a>
-                <a href="transaccion.html" class="btn btn-primary btn-round">
-                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                </a>
-                <a href="cuenta.html" class="btn btn-primary btn-round">
-                  <i class="fa-solid fa-eye"></i>
-                </a>
+              <div>
+                <h5>$1000</h5>
               </div>
             </div>
-          </div>
-
-          <div class="card" style="width: 18rem">
-            <div class="card-body">
-              <div class="d-flex justify-content-between aling-items-center">
-                <div>
-                  <h5>Salud</h5>
-                </div>
-                <div>
-                  <h5>$600</h5>
-                </div>
-              </div>
-              <div class="d-flex justify-content-around">
-                <a href="index.html" class="btn btn-primary btn-round">
-                  <i class="fas fa-arrow-up-from-bracket"></i>
-                </a>
-                <a href="egreso.html" class="btn btn-primary btn-round">
-                  <i class="fa-solid fa-download"></i>
-                </a>
-                <a href="transaccion.html" class="btn btn-primary btn-round">
-                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
-                </a>
-                <a href="cuenta.html" class="btn btn-primary btn-round">
-                  <i class="fa-solid fa-eye"></i>
-                </a>
-              </div>
-            </div> 
-          </div>
-        </section>
-
-        <section class="resumen-categorias">
-          <h2 class="subtitulos">Categorias</h2>
-          <div class="lista-categorias">
-            <div class="card" style="width: 18rem">
-              <a
-                href="categorias.html"
-                style="text-decoration: none; color: inherit"
-              >
-                <div class="card-body">
-                  <div class="d-flex justify-content-between aling-items-center">
-                    <div>
-                      <h5>Universidad</h5>
-                    </div>
-                    <div>
-                      <h5>$600</h5>
-                    </div>
-                  </div>
-                </div>
+            <div class="d-flex justify-content-around">
+              <a href="ingreso.html" class="btn btn-primary btn-round">
+                <i class="fas fa-arrow-up-from-bracket"></i>
+              </a>
+              <a href="egreso.html" class="btn btn-primary btn-round">
+                <i class="fa-solid fa-download"></i>
+              </a>
+              <a href="transaccion.html" class="btn btn-primary btn-round">
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              </a>
+              <a href="cuenta.html" class="btn btn-primary btn-round">
+                <i class="fa-solid fa-eye"></i>
               </a>
             </div>
-  
-            <div class="card" style="width: 18rem">
-              <a
-                href="categorias.html"
-                style="text-decoration: none; color: inherit"
-              >
-                <div class="card-body">
-                  <div class="d-flex justify-content-between aling-items-center">
-                    <div>
-                      <h5>Alimentacion</h5>
-                    </div>
-                    <div>
-                      <h5>$50</h5>
-                    </div>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            <div class="d-flex justify-content-between aling-items-center">
+              <div>
+                <h5>Salud</h5>
+              </div>
+              <div>
+                <h5>$600</h5>
+              </div>
+            </div>
+            <div class="d-flex justify-content-around">
+              <a href="index.html" class="btn btn-primary btn-round">
+                <i class="fas fa-arrow-up-from-bracket"></i>
+              </a>
+              <a href="egreso.html" class="btn btn-primary btn-round">
+                <i class="fa-solid fa-download"></i>
+              </a>
+              <a href="transaccion.html" class="btn btn-primary btn-round">
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+              </a>
+              <a href="cuenta.html" class="btn btn-primary btn-round">
+                <i class="fa-solid fa-eye"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="resumen-categorias">
+        <h2 class="subtitulos">Categorias</h2>
+        <div class="lista-categorias">
+          <div class="card" style="width: 18rem">
+            <a href="categorias.html" style="text-decoration: none; color: inherit">
+              <div class="card-body">
+                <div class="d-flex justify-content-between aling-items-center">
+                  <div>
+                    <h5>Universidad</h5>
+                  </div>
+                  <div>
+                    <h5>$600</h5>
                   </div>
                 </div>
-              
-            </div>
-  
-            <div class="card" style="width: 18rem">
-               <a
-                href="categorias.html"
-                style="text-decoration: none; color: inherit"
-              >
+              </div>
+            </a>
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <a href="categorias.html" style="text-decoration: none; color: inherit">
+              <div class="card-body">
+                <div class="d-flex justify-content-between aling-items-center">
+                  <div>
+                    <h5>Alimentacion</h5>
+                  </div>
+                  <div>
+                    <h5>$50</h5>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="card" style="width: 18rem">
+            <a href="categorias.html" style="text-decoration: none; color: inherit">
               <div class="card-body">
                 <div class="d-flex justify-content-between aling-items-center">
                   <div>
@@ -183,31 +159,29 @@
                   </div>
                 </div>
               </div>
-              </a>
-            </div>
-            <div class="card" style="width: 18rem">
-              <a
-               href="categorias.html"
-               style="text-decoration: none; color: inherit"
-             >
-             <div class="card-body">
-               <div class="d-flex justify-content-between aling-items-center">
-                 <div>
-                   <h5>Nomina</h5>
-                 </div>
-                 <div>
-                   <h5>$800</h5>
-                 </div>
-               </div>
-             </div>
-             </a>
-           </div>
+            </a>
           </div>
-        </section>
-      </main>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-  </body>
+          <div class="card" style="width: 18rem">
+            <a href="categorias.html" style="text-decoration: none; color: inherit">
+              <div class="card-body">
+                <div class="d-flex justify-content-between aling-items-center">
+                  <div>
+                    <h5>Nomina</h5>
+                  </div>
+                  <div>
+                    <h5>$800</h5>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
