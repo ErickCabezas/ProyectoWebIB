@@ -42,6 +42,14 @@ body {
   --bs-btn-bg: #011c73;
   --bs-btn-border-color: #011c73;
 }
+/*iconos cuenta*/
+.icono-cuenta{
+  background: #011c73;
+  color: #fff;
+}
+.ancho-cuenta{
+  min-height: 700px;
+}
 
 /**********Bordes************************/
 .transacciones {
@@ -179,10 +187,9 @@ main section div h6 {
 }
 
 .opciones {
-  display: flex;
-  /*gap: 100px;*/
   justify-content: center;
 }
+
 .opciones a {
   display: flex;
   height: 150px;
@@ -195,6 +202,26 @@ main section div h6 {
   font-size: 5em;
   height: 30px;
   margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  .opciones {
+    justify-content: center;
+  }
+  
+  .opciones a {
+    margin: auto;
+    display: flex;
+    height: 60px;
+    width: 150px;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap
+  }
+  .opciones a i {
+    font-size: 1.5Vmax;
+  }
 }
 
 .movimientos {
@@ -228,3 +255,4 @@ main section div h6 {
   width: 90%;
   margin: 0 auto;
 }
+
