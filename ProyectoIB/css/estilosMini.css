@@ -11,3 +11,13 @@
     font-size: 20px;
     font-weight: normal;
   }
+
+.transacciones{
+    padding: 0.5%;
+    margin: 0.5%;
+    border-radius: 25px;
+    background-color: #b4ccf9;
+    color: #100e58;
+}
+.suma{color: #2b772b;}
+.resta{color: #aa0000;}
