@@ -84,9 +84,15 @@ body {
 }
 
 .principal a i {
-  font-size: 35px; /* Puedes ajustar el tamaño según tus necesidades */
+  font-size: 35px; /* Tamanio de los iconos */
   color: #000;
 }
+
+.iconos{
+  font-size: 40px; /* Tamanio de los iconos */
+  color: #011c73;
+}
+
 
 /**********BARRA*******************/
 .barra {
@@ -96,7 +102,7 @@ body {
   margin: 10px 70px;
   border-radius: 20px;
   font-size: 1.2rem;
-  background-color: #eff3ff;
+  background-color: #ced7f8;
 }
 
 .barra a {
@@ -115,6 +121,18 @@ body {
   font-family: LibreBodoni-R, arial, sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+.fondo {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-top: 40px;
+  max-width: 75%;
+}
+
+>>>>>>> 58440d58ee8e3a44592babae8b1910cf3b52c356
 #descripcion {
   resize: none;
 }
@@ -124,7 +142,7 @@ body {
 
 .money-input {
   border: none; /* Quita todos los bordes predeterminados */
-  border-bottom: 1px solid #ced4da;
+  border-bottom: solid 1px  #9ca0a8;
   border-radius: 0px;
   font-size: 30px;
 }
@@ -217,10 +235,23 @@ main section div h6 {
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
+<<<<<<< HEAD
 
 .card-categoria {
+=======
+.card-categoria{
+>>>>>>> 58440d58ee8e3a44592babae8b1910cf3b52c356
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 5rem;
 }
+<<<<<<< HEAD
+=======
+
+/*ingresos*/
+.anchoIngreso {
+  width: 70%;
+  margin: 0 auto;
+}
+>>>>>>> 58440d58ee8e3a44592babae8b1910cf3b52c356
