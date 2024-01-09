@@ -108,6 +108,14 @@ body {
   font-family: LibreBodoni-R, arial, sans-serif;
 }
 
+.fondo {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-top: 40px;
+  max-width: 75%;
+}
 
 #descripcion {
   resize: none;
@@ -118,7 +126,7 @@ body {
 
 .money-input {
   border: none; /* Quita todos los bordes predeterminados */
-  border-bottom: 1px solid #ced4da;
+  border-bottom: solid 1px  #9ca0a8;
   border-radius: 0px;
   font-size: 30px;
 }
@@ -213,10 +221,15 @@ main section div h6 {
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
 }
-
 .card-categoria{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 5rem;
+}
+
+/*ingresos*/
+.anchoIngreso {
+  width: 70%;
+  margin: 0 auto;
 }

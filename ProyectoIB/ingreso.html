@@ -14,31 +14,31 @@
     <div class="container fondo">
 
         <header class="row">
-            <a href="cuenta.html"><i class="fa-solid fa-chevron-left fa-lg"></i></a>
+            <a href="index.html"><i class="fa-solid fa-chevron-left fa-lg"></i></a>
         </header>
 
         <div class="row " >
             <h1 class="col-12 text-center font-titulo">Familiar</h1>
-            <form class="col-12" action="index.html" method="post">
+            <form class="col-12 anchoIngreso" action="index.html" method="post">
                 <div class="row g-3 align-items-center">
                     <div class="col-12">
-                        <label for="monto" class="col-form-label">Monto:</label>
-                        <input type="number" id="monto" class="form-control text-center money-input font-titulo" placeholder="+$0.00" min="0">
+                        <label for="monto" class="col-form-label mini-titulos">Monto:</label>
+                        <input type="number" id="monto" class="form-control text-center transacciones money-input" placeholder="+$0.00" min="0">
                     </div>
                     
                         <div class="mt-5 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                            <label for="date" class="col-form-label">Fecha:</label>
+                            <label for="date" class="col-form-label mini-titulos">Fecha:</label>
                         </div>
                         <div class="mt-5 col-sm-12 col-md-8 col-lg-8 col-xl-8 ">
-                            <input type="date" id="date" class="form-control text-center">
+                            <input type="date" id="date" class="form-control text-center transacciones">
                         </div>
                     
                     
                         <div class="mt-5 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                            <label for="categoria" class="col-form-label">Categoría:</label>
+                            <label for="categoria" class="col-form-label mini-titulos">Categoría:</label>
                         </div>
                         <div class="mt-5 col-sm-12 col-md-8 col-lg-8 col-xl-8 ">
-                            <select id="categoria" class="form-select text-center">
+                            <select id="categoria" class="form-select text-center transacciones">
                                 <option selected>categoría</option>
                                 <option value="1">Universidad</option>
                                 <option value="2">Alimentacion</option>
@@ -48,8 +48,8 @@
                     
                     
                     <div class="mt-5 col-12">
-                        <label for="descripcion" class="form-label">Descripción</label>
-                        <textarea class="form-control" id="descripcion" placeholder="Descripción del lenguaje" rows="3"></textarea>
+                        <label for="descripcion" class="form-label mini-titulos">Descripción</label>
+                        <textarea class="form-control text-center transacciones" id="descripcion" placeholder="Descripción" rows="3"></textarea>
                     </div>
 
                     <div class="text-center">
