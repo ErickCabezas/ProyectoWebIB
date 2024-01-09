@@ -158,6 +158,11 @@ main section div h6 {
 .fecha {
   margin-left: 2rem;
 }
-.btnGyC{
+.btnGyC {
   width: 35%;
+}
+.btnFecha button {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
 }
