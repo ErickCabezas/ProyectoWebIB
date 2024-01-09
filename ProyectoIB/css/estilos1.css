@@ -223,3 +223,8 @@ main section div h6 {
   justify-content: space-between;
   gap: 5rem;
 }
+
+.anchoIngreso{
+  width: 90%;
+  margin: 0 auto;
+}
