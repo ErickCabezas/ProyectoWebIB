@@ -110,20 +110,21 @@ main section div h6 {
 
 .opciones {
   display: flex;
-  gap: 100px;
+  /*gap: 100px;*/
   justify-content: center;
 }
 .opciones a {
   display: flex;
   height: 100px;
   width: 100px;
+
   justify-content: center;
   align-content: center;
 }
 .opciones a i {
   font-size: 3.5em;
   height: 30px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 .movimientos {
@@ -134,4 +135,3 @@ main section div h6 {
 .fecha {
   margin-left: 2rem;
 }
-
