@@ -108,6 +108,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 15px;
   margin-top: 40px;
+  max-width: 75%;
 }
 
 #descripcion {
@@ -119,7 +120,7 @@ body {
 
 .money-input {
   border: none; /* Quita todos los bordes predeterminados */
-  border-bottom: 1px solid #ced4da;
+  border-bottom: solid 1px  #9ca0a8;
   border-radius: 0px;
   font-size: 30px;
 }
@@ -213,4 +214,9 @@ main section div h6 {
 .container-contenido label {
   font-family: Arial, Helvetica, sans-serif;
   color: #333;
+}
+/*ingresos*/
+.anchoIngreso {
+    width: 70%;
+    margin: 0 auto;
 }
