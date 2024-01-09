@@ -34,6 +34,7 @@ body {
   border: 1px solid #9ca0a8;
   border-radius: 15px;
   margin-top: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8), -5px -5px 10px rgba(255, 255, 255, 0.3);
 }
 
 /***********Botones*********************/
@@ -41,6 +42,14 @@ body {
   --bs-btn-color: #fff;
   --bs-btn-bg: #011c73;
   --bs-btn-border-color: #011c73;
+}
+/*iconos cuenta*/
+.icono-cuenta{
+  background: #011c73;
+  color: #fff;
+}
+.ancho-cuenta{
+  min-height: 700px;
 }
 
 /**********Bordes************************/
@@ -180,10 +189,9 @@ main section div h6 {
 }
 
 .opciones {
-  display: flex;
-  /*gap: 100px;*/
   justify-content: center;
 }
+
 .opciones a {
   display: flex;
   height: 150px;
@@ -196,6 +204,26 @@ main section div h6 {
   font-size: 5em;
   height: 30px;
   margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  .opciones {
+    justify-content: center;
+  }
+  
+  .opciones a {
+    margin: auto;
+    display: flex;
+    height: 60px;
+    width: 150px;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap
+  }
+  .opciones a i {
+    font-size: 1.5Vmax;
+  }
 }
 
 .movimientos {
@@ -229,6 +257,7 @@ main section div h6 {
   width: 90%;
   margin: 0 auto;
 }
+
 
 .text-dsh{
   color: #011c73;
