@@ -1,163 +1,172 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/estilos1.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/estilos1.css" />
+    <script
+      src="https://kit.fontawesome.com/3ffe5179f0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="css/estilos1.css" rel="stylesheet" />
-  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/estilos1.css">
-  <script src="https://kit.fontawesome.com/3ffe5179f0.js" crossorigin="anonymous"></script>
-</head>
+<body>
+  <div class="container fondo">
+    <header class="principal">
+      <a href="configuracion.html">
+        <i class="fa-regular fa-user"></i>
+      </a>
+      <h1 class="titulo text-center mt-3 font-titulo">Mi Chaucherita</h1>
+      <a href="configuracion.html">
+        <i class="fa-solid fa-gear"></i>
+      </a>
+    </header>
 
-  <body>
-    <div class="container fondo">
-      <header class="principal">
-            <a href="configuracion.html">
-                <i class="fa-regular fa-user"></i>
-            </a>
-            <h1 class="titulo text-center mt-3 font-titulo">Mi Chaucherita</h1>
-            <a href="configuracion.html">
-                <i class="fa-solid fa-gear"></i>
-            </a>
-        </header>
+    <main class="barra d-sm-flex flex-sm-row justify-content-sm-center justify-content-md-between flex-wrap  px-xs-5 ">
+      <a class="titulo px-lg-5" href="#">Cuentas</a>
+      <a class="titulo px-lg-5" href="#">Movimientos</a>
+    </main>
 
-      <main class="barra">
-        <a class="titulo" href="#">Cuentas</a>
-        <a class="titulo" href="#">Movimientos</a>
-      </main>
-      
-      <main>
-        <div class="container movimientos row">
-          <h2 class="col-12 subtitulos mt-4" style="margin-left: 130px;">Movimientos Recientes</h2>
-          <section class="d-flex flex-row w-75 row">
-            <div class="card w-100 transacciones shadow-sm">
-              <div class="d-flex justify-content-between mx-4">
-                <span class="h4">Familiar</span>
-                <span class="h4 resta">-50$</span>
-              </div>
-              <span class="mx-4">Salud</span>
+    <main>
+      <div class="container movimientos row">
+        <h2 class="col-12 subtitulos mt-4" style="margin-left: 130px;">Movimientos Recientes</h2>
+        <section class="d-flex flex-row w-75 row">
+          <div class="card w-100 transacciones shadow-sm">
+            <div class="d-flex justify-content-between mx-4">
+              <span class="h4">Familiar</span>
+              <span class="h4 resta">-50$</span>
             </div>
-            <div class="card w-100 transacciones shadow-sm">
-              <div class="d-flex justify-content-between mx-4">
-                <span class="h4">Familiar</span>
-                <span class="h4 suma">+80$</span>
-              </div>
-              <span class="mx-4">Cobro</span>
+            <span class="mx-4">Salud</span>
+          </div>
+          <div class="card w-100 transacciones shadow-sm">
+            <div class="d-flex justify-content-between mx-4">
+              <span class="h4">Familiar</span>
+              <span class="h4 suma">+80$</span>
             </div>
-            <div class="card w-100 transacciones shadow-sm">
-              <div class="d-flex justify-content-between mx-4">
-                <span class="h4">Cuenta</span>
-                <span class="h4 resta">-500$</span>
-              </div>
-              <span class="mx-4">Universidad</span>
+            <span class="mx-4">Cobro</span>
+          </div>
+          <div class="card w-100 transacciones shadow-sm">
+            <div class="d-flex justify-content-between mx-4">
+              <span class="h4">Cuenta</span>
+              <span class="h4 resta">-500$</span>
             </div>
-          </section>
-        </div>
-      </main>
+            <span class="mx-4">Universidad</span>
+          </div>
+        </section>
+      </div>
+    </main>
 
     <main class="resumen font-titulo d-lg-flex justify-content-around">
       <section class="cuentas">
         <h2 class="subtitulos">Cuentas</h2>
-        <div class="card transacciones" style="width: 18rem">
-          <div class="card-body mini-info">
-            <div class="d-flex justify-content-between aling-items-center">
-              <div>
-                <h5 class="mini-titulos subtitulos">Familiar</h5>
+        <div class="d-flex flex-column">
+          <div class="card transacciones">
+            <div class="card-body mini-info">
+              <div class="d-md-flex justify-content-md-between aling-items-md-center">
+                <div>
+                  <h5 class="mini-titulos subtitulos">Familiar</h5>
+                </div>
+                <div>
+                  <h5 class="mini-titulos subtitulos">$1000</h5>
+                </div>
               </div>
-              <div>
-                <h5 class="mini-titulos subtitulos">$1000</h5>
+              <div class="d-md-flex justify-content-md-around">
+                <a href="ingreso.html" class="btn btn-primary btn-round">
+                  <i class="fas fa-arrow-up-from-bracket"></i>
+                </a>
+                <a href="egreso.html" class="btn btn-primary btn-round">
+                  <i class="fa-solid fa-download"></i>
+                </a>
+                <a href="transaccion.html" class="btn btn-primary btn-round">
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </a>
+                <a href="cuenta.html" class="btn btn-primary btn-round">
+                  <i class="fa-solid fa-eye"></i>
+                </a>
               </div>
-            </div>
-            <div class="d-flex justify-content-around">
-              <a href="ingreso.html" class="btn btn-primary btn-round">
-                <i class="fas fa-arrow-up-from-bracket"></i>
-              </a>
-              <a href="egreso.html" class="btn btn-primary btn-round">
-                <i class="fa-solid fa-download"></i>
-              </a>
-              <a href="transaccion.html" class="btn btn-primary btn-round">
-                <i class="fa-solid fa-arrow-right-arrow-left"></i>
-              </a>
-              <a href="cuenta.html" class="btn btn-primary btn-round">
-                <i class="fa-solid fa-eye"></i>
-              </a>
             </div>
           </div>
-        </div>
 
-        <div class="card transacciones" style="width: 18rem">
-          <div class="card-body">
-            <div class="d-flex justify-content-between aling-items-center">
-              <div>
-                <h5 class="mini-titulos subtitulos">Salud</h5>
+          <div class="card transacciones">
+            <div class="card-body mini-info">
+              <div class="d-md-flex justify-content-md-between aling-items-md-center">
+                <div>
+                  <h5 class="mini-titulos subtitulos">Salud</h5>
+                </div>
+                <div>
+                  <h5 class="mini-titulos subtitulos">$600</h5>
+                </div>
               </div>
-              <div>
-                <h5 class="mini-titulos subtitulos">$600</h5>
+              <div class="d-md-flex justify-content-md-around">
+                <a href="index.html" class="btn btn-primary btn-round my-1">
+                  <i class="fas fa-arrow-up-from-bracket"></i>
+                </a>
+                <a href="egreso.html" class="btn btn-primary btn-round my-1">
+                  <i class="fa-solid fa-download"></i>
+                </a>
+                <a href="transaccion.html" class="btn btn-primary btn-round my-1">
+                  <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </a>
+                <a href="cuenta.html" class="btn btn-primary btn-round my-1">
+                  <i class="fa-solid fa-eye"></i>
+                </a>
               </div>
-            </div>
-            <div class="d-flex justify-content-around">
-              <a href="index.html" class="btn btn-primary btn-round">
-                <i class="fas fa-arrow-up-from-bracket"></i>
-              </a>
-              <a href="egreso.html" class="btn btn-primary btn-round">
-                <i class="fa-solid fa-download"></i>
-              </a>
-              <a href="transaccion.html" class="btn btn-primary btn-round">
-                <i class="fa-solid fa-arrow-right-arrow-left"></i>
-              </a>
-              <a href="cuenta.html" class="btn btn-primary btn-round">
-                <i class="fa-solid fa-eye"></i>
-              </a>
             </div>
           </div>
+          <div style="width: 18rem;"></div>
         </div>
       </section>
 
-      <section class="resumen-categorias">
-        <h2 class="subtitulos">Categorias</h2>
-        <div class="lista-categorias">
-          <a href="categorias.html" style="text-decoration: none;">
-            <div class="card transacciones shadow-sm">
-              <div class="card-categoria mx-4">
-                <span class="h4 mt-3 subtitulos">Alimentación</span>
-                <span class="h4 mt-3 subtitulos">$50</span>
+        <section class="resumen-categorias">
+          <h2 class="subtitulos">Categorias</h2>
+          <div class="lista-categorias">
+            <a href="categorias.html" style="text-decoration: none">
+              <div class="card transacciones shadow-sm">
+                <div class="card-categoria mx-4">
+                  <span class="h4 mt-3 subtitulos">Alimentación</span>
+                  <span class="h4 mt-3 subtitulos">$50</span>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
 
-          <a href="categorias.html" style="text-decoration: none;">
-            <div class="card transacciones shadow-sm">
-              <div class="card-categoria mx-4">
-                <span class="h4 mt-3 subtitulos">Familiar</span>
-                <span class="h4 mt-3 subtitulos">$80</span>
+            <a href="categorias.html" style="text-decoration: none">
+              <div class="card transacciones shadow-sm">
+                <div class="card-categoria mx-4">
+                  <span class="h4 mt-3 subtitulos">Familiar</span>
+                  <span class="h4 mt-3 subtitulos">$80</span>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
 
-          <a href="categorias.html" style="text-decoration: none;">
-            <div class="card transacciones shadow-sm">
-              <div class="card-categoria mx-4">
-                <span class="h4 mt-3 subtitulos">Familiar</span>
-                <span class="h4 mt-3 subtitulos">$80</span>
+            <a href="categorias.html" style="text-decoration: none">
+              <div class="card transacciones shadow-sm">
+                <div class="card-categoria mx-4">
+                  <span class="h4 mt-3 subtitulos">Familiar</span>
+                  <span class="h4 mt-3 subtitulos">$80</span>
+                </div>
               </div>
-            </div>
-          </a>
-          <a href="categorias.html" style="text-decoration: none;">
-            <div class="card transacciones shadow-sm">
-              <div class="card-categoria mx-4">
-                <span class="h4 mt-3 subtitulos">Familiar</span>
-                <span class="h4 mt-3 subtitulos">$80</span>
+            </a>
+            <a href="categorias.html" style="text-decoration: none">
+              <div class="card transacciones shadow-sm">
+                <div class="card-categoria mx-4">
+                  <span class="h4 mt-3 subtitulos">Familiar</span>
+                  <span class="h4 mt-3 subtitulos">$80</span>
+                </div>
               </div>
-            </div>
-          </a>
-        </div>
-      </section>
-    </main>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-</body>
-
+            </a>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
