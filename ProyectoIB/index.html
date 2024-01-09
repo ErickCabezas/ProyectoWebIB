@@ -10,54 +10,51 @@
   <script src="https://kit.fontawesome.com/3ffe5179f0.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-  <div class="container fondo">
-    <header>
-      <h1 class="titulo text-center mt-3 font-titulo">Mi Chaucherita</h1>
-    </header>
+  <body>
+    <div class="container fondo">
+      <header class="principal">
+            <a href="configuracion.html">
+                <i class="fa-regular fa-user"></i>
+            </a>
+            <h1 class="titulo text-center mt-3 font-titulo">Mi Chaucherita</h1>
+            <a href="configuracion.html">
+                <i class="fa-solid fa-gear"></i>
+            </a>
+        </header>
 
-    <main class="barra table-primary">
-      <nav class="navbar navbar-expand-lg subtitulos">
-        <div class="opciones-dsh container-fluid row">
-          <a class="nav-link col-2" href="#">Cuentas</a>
-          <a class="nav-link col-11" href="#">Movimientos</a>
+      <main class="barra">
+        <a class="titulo" href="#">Cuentas</a>
+        <a class="titulo" href="#">Movimientos</a>
+      </main>
+      
+      <main>
+        <div class="container movimientos row">
+          <h2 class="col-12 subtitulos mt-4" style="margin-left: 130px;">Movimientos Recientes</h2>
+          <section class="d-flex flex-row w-75 row">
+            <div class="card w-100 transacciones shadow-sm">
+              <div class="d-flex justify-content-between mx-4">
+                <span class="h4">Familiar</span>
+                <span class="h4 resta">-50$</span>
+              </div>
+              <span class="mx-4">Salud</span>
+            </div>
+            <div class="card w-100 transacciones shadow-sm">
+              <div class="d-flex justify-content-between mx-4">
+                <span class="h4">Familiar</span>
+                <span class="h4 suma">+80$</span>
+              </div>
+              <span class="mx-4">Cobro</span>
+            </div>
+            <div class="card w-100 transacciones shadow-sm">
+              <div class="d-flex justify-content-between mx-4">
+                <span class="h4">Cuenta</span>
+                <span class="h4 resta">-500$</span>
+              </div>
+              <span class="mx-4">Universidad</span>
+            </div>
+          </section>
         </div>
-        <div class="config">
-          <a href="configuracion.html" class="btn btn-primary btn-round">
-            <i class="fa-solid fa-gear"></i>
-          </a>
-        </div>
-      </nav>
-    </main>
-
-    <main>
-      <div class="container movimientos row">
-        <h2 class="col-12 subtitulos mt-4" style="margin-left: 130px;">Movimientos Recientes</h2>
-        <section class="d-flex flex-row w-75 row">
-          <div class="card w-100 transacciones shadow-sm">
-            <div class="d-flex justify-content-between mx-4">
-              <span class="h4">Familiar</span>
-              <span class="h4 resta">-50$</span>
-            </div>
-            <span class="mx-4">Salud</span>
-          </div>
-          <div class="card w-100 transacciones shadow-sm">
-            <div class="d-flex justify-content-between mx-4">
-              <span class="h4">Familiar</span>
-              <span class="h4 suma">+80$</span>
-            </div>
-            <span class="mx-4">Cobro</span>
-          </div>
-          <div class="card w-100 transacciones shadow-sm">
-            <div class="d-flex justify-content-between mx-4">
-              <span class="h4">Cuenta</span>
-              <span class="h4 resta">-500$</span>
-            </div>
-            <span class="mx-4">Universidad</span>
-          </div>
-        </section>
-      </div>
-    </main>
+      </main>
 
     <main class="resumen font-titulo d-lg-flex justify-content-center">
       <section class="cuentas">

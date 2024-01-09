@@ -8,6 +8,19 @@
   src: url(../font/LibreBodoni-Regular.ttf);
 }
 
+/************Titulo y settings**********************/
+.principal{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.principal a i {
+  font-size: 35px; /* Puedes ajustar el tamaño según tus necesidades */
+}
+
+
+
 body {
   margin: 40px;
   font-family: Arial, Helvetica, sans-serif;
@@ -61,11 +74,21 @@ body {
 }
 
 .barra {
-  padding-left: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 25px 0px;
   margin: 10px 70px;
-  border-radius: 15px;
+  border-radius: 20px;
   font-size: 1.2rem;
-  background-color: #b4ccf9;
+  background-color: #c5d2ea;
+}
+
+.barra a{
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #333;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .card:hover {
@@ -135,6 +158,11 @@ main section div h6 {
 .fecha {
   margin-left: 2rem;
 }
-.btnGyC{
+.btnGyC {
   width: 35%;
+}
+.btnFecha button {
+  width: 100px;
+  height: 100px;
+  font-size: 2rem;
 }
