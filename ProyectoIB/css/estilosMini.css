@@ -5,7 +5,7 @@
   }
   .mini-titulos{
     font-size: 20px;
-    font-weight: bold;
+
   }
   .mini-info{
     font-size: 20px;
@@ -16,8 +16,9 @@
     padding: 0.5%;
     margin: 0.5%;
     border-radius: 25px;
-    background-color: #b4ccf9;
+    border: solid 2px  #9ca0a8;
     color: #100e58;
 }
+
 .suma{color: #2b772b;}
 .resta{color: #aa0000;}
