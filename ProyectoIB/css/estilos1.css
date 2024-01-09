@@ -34,6 +34,7 @@ body {
   border: 1px solid #9ca0a8;
   border-radius: 15px;
   margin-top: 40px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8), -5px -5px 10px rgba(255, 255, 255, 0.3);
 }
 
 /***********Botones*********************/
@@ -42,11 +43,20 @@ body {
   --bs-btn-bg: #011c73;
   --bs-btn-border-color: #011c73;
 }
+/*iconos cuenta*/
+.icono-cuenta{
+  background: #011c73;
+  color: #fff;
+}
+.ancho-cuenta{
+  min-height: 700px;
+}
 
 /**********Bordes************************/
 .transacciones {
   padding: 0.5%;
   margin: 0.5%;
+  width: 100%;
   border-radius: 25px;
   border: solid 2px #9ca0a8;
   color: #100e58;
@@ -55,14 +65,14 @@ body {
 /*************Letras****************/
 .subtitulos {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-size: 1.5vmax;
   font-weight: bold;
 }
 .mini-titulos {
-  font-size: 20px;
+  font-size: 1.2vmax;
 }
 .mini-info {
-  font-size: 20px;
+  font-size: 1.2vmax;
   font-weight: normal;
 }
 
@@ -120,15 +130,6 @@ body {
   font-family: LibreBodoni-R, arial, sans-serif;
 }
 
-.fondo {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 20px 20px;
-  border: 1px solid #ccc;
-  border-radius: 15px;
-  margin-top: 40px;
-  /*max-width: 75%;*/
-}
-
 #descripcion {
   resize: none;
 }
@@ -145,10 +146,6 @@ body {
 
 .config {
   margin-right: 40px;
-}
-
-.titulo {
-  font-size: 2.2rem;
 }
 
 .card:hover {
@@ -192,10 +189,9 @@ main section div h6 {
 }
 
 .opciones {
-  display: flex;
-  /*gap: 100px;*/
   justify-content: center;
 }
+
 .opciones a {
   display: flex;
   height: 150px;
@@ -210,17 +206,35 @@ main section div h6 {
   margin-top: 20px;
 }
 
+@media (max-width: 576px) {
+  .opciones {
+    justify-content: center;
+  }
+  
+  .opciones a {
+    margin: auto;
+    display: flex;
+    height: 60px;
+    width: 150px;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap
+  }
+  .opciones a i {
+    font-size: 1.5Vmax;
+  }
+}
+
 .movimientos {
   display: flex;
-  margin-top: 100px;
+  margin-top: 20px;
   justify-content: center;
 }
 .fecha {
   margin-left: 2rem;
 }
-.btnGyC {
-  width: 35%;
-}
+
 .btnFecha button {
   width: 100px;
   height: 100px;
@@ -236,11 +250,15 @@ main section div h6 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 5rem;
+  gap: 1.2vmax;
 }
 
-/*ingresos*/
-.anchoIngreso {
-  width: 70%;
+.anchoIngreso{
+  width: 90%;
   margin: 0 auto;
+}
+
+
+.text-dsh{
+  color: #011c73;
 }
