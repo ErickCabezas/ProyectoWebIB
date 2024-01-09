@@ -5,7 +5,7 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Transacciones</title>
+  <title>Mi Chaucherita</title>
 
   <!--Bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -24,8 +24,8 @@
       <a href="cuenta.html"><i class="fa-solid fa-chevron-left fa-lg"></i></a>
     </header>
 
-    <div class="row">
-      <h1 class="col-12 titulo text-center mt-3 font-titulo">Transacciones</h1>
+    <div class="row">   
+      <h1 class="col-12 text-center mt-3 font-titulo">Transferencia</h1>
       <!--cambiar nombre anchoIngreso-->
       <form class="col-12 anchoIngreso" action="cuenta.html" method="post">
 
@@ -36,7 +36,7 @@
           </div>
 
           <div class="col-xs-12 col-lg-9 d-flex justify-content-center">
-            <select name="origen" class="form-select text-center transacciones " id="cmbOrigen" required>
+            <select name="origen" class="form-select text-center transacciones" id="cmbOrigen" required>
               <option value="">...</option>
               <option value="1">Banco</option>
               <option value="2">Efectivo</option>
@@ -52,7 +52,6 @@
               <option value="">...</option>
               <option value="1">Banco</option>
               <option value="2">Efectivo</option>
-              <option value="3">Chaucherita</option>
             </select>
           </div>
 
@@ -80,10 +79,12 @@
             <div class="col-xs-12 col-lg-9 d-flex justify-content-center">
               <select name="categoria" class="form-select text-center transacciones" id="cmbCategoria" required>
                 <option value="" disabled>...</option>
-                <option value="1" disabled>Universidad</option>
-                <option value="2" disabled>Alimentacion</option>
-                <option value="3" selected>Transferencia</option>
-                <option value="4" disabled>Salud</option>
+                <option value="1" disabled>Alimentación</option>
+                <option value="2" disabled>Salud</option>
+                <option value="3" disabled>Nómina</option>
+                <option value="4" disabled>Universidad</option>
+                <option value="5" selected>Transferencia</option>
+                
 
               </select>
             </div>
@@ -93,7 +94,7 @@
               <!-- regresa a pantalla 9 si colocamos cancelar -->
               <a href="cuenta.html" class="col-xs-6 col-lg-6 btn btn-primary btnGyC m-3 ">Guardar</a>
               <!-- Guarda transacción si colocamos cancelar -->
-              <a href="index.html" class="col-xs-6 col-lg-6 btn btn-secondary btnGyC m-3 ">Cancelar</a>
+              <a href="cuenta.html" class="col-xs-6 col-lg-6 btn btn-secondary btnGyC m-3 ">Cancelar</a>
           </div>
 
         </div>
