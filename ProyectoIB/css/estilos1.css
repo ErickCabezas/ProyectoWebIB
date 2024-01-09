@@ -77,9 +77,15 @@ body {
 }
 
 .principal a i {
-  font-size: 35px; /* Puedes ajustar el tamaño según tus necesidades */
+  font-size: 35px; /* Tamanio de los iconos */
   color: #000;
 }
+
+.iconos{
+  font-size: 40px; /* Tamanio de los iconos */
+  color: #011c73;
+}
+
 
 /**********BARRA*******************/
 .barra {
